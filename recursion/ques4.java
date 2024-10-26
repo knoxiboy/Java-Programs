@@ -9,7 +9,7 @@ public class ques4 {
             return;
         }
 
-        if(array[idx] > array[idx+1]){
+        if(array[idx] >= array[idx+1]){
             System.out.println("Not sorted");
             return;
         }
