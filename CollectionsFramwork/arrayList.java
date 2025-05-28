@@ -58,5 +58,8 @@ public class arrayList {
         System.out.println("New ArrayList1 : " + l1);
 
         System.out.println(l1.clone());
+
+        int size = l1.size(); // to get the size of the arraylist
+        System.out.println("Size of ArrayList1 : " + size);
     }
 }
