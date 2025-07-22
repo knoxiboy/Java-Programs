@@ -63,5 +63,8 @@ public class hashMap {
         for (String key : numbers.keySet()) {
             System.out.println("Key: " + key + ", Value: " + numbers.get(key));
         }
+
+        //get or default value
+        System.out.println("Value for key 'Seven' or default 0: " + numbers.getOrDefault("Seven", 0));
     }
 }
